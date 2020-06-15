@@ -1,5 +1,5 @@
 {
-  "name": "npr",
+  "name": "@jstillerman/npr",
   "version": "1.0.0",
   "description": "Interactive CLI for running npm scripts.",
   "main": "index.js",
