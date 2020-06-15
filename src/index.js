@@ -11,7 +11,7 @@ try {
 
   const prompt = new AutoComplete({
     name: "script",
-    message: "Pick a script",
+    message: "Run script",
     limit: 10,
     initial: 0,
     choices: scripts,
@@ -20,7 +20,6 @@ try {
   prompt
     .run()
     .then((answer) => {
-      console.log("Running script:", answer)
       npm.load(() => npm.run(answer));
     })
     .catch(console.error);

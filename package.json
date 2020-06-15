@@ -1,5 +1,5 @@
 {
-  "name": "nps",
+  "name": "npr",
   "version": "1.0.0",
   "description": "Interactive CLI for running npm scripts.",
   "main": "index.js",
@@ -9,7 +9,7 @@
     "dev": "rollup src/index.js --file lib/bundle.js --format umd --name 'nps' -w --config rollup.config.js"
   },
   "bin": {
-    "nps": "./lib/bundle.js"
+    "npr": "./lib/bundle.js"
   },
   "dependencies": {
     "enquirer": "^2.3.5"
