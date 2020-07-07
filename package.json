@@ -16,6 +16,6 @@
   },
   "devDependencies": {
     "@robmarr/rollup-plugin-shebang": "^1.0.1",
-    "npm": "^6.14.5"
+    "npm": "^6.14.6"
   }
 }
